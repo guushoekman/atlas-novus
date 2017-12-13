@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atlas Novus</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css????">
+  </head>
+  <body>
+
+    <nav id="navbar" class="navbar">
+      <div id="specialShadow" class="bd-special-shadow"></div>
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item " href="/">
+              <img src="img/logo.svg">
+            </a>
+            <div id="navbarBurger" class="navbar-burger burger" data-target="an-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div id="an-menu" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item " href="#">
+                Over Atlas Novus
+              </a>
+              <a class="navbar-item " href="#">
+                Eigen kaart maken
+              </a>
+              <a class="navbar-item " href="#">
+                Bron
+              </a>
+            </div>
+            <div class="navbar-end">
+              <a class="navbar-item " href="mailto:mail@guushoekman.com">
+                Contact
+              </a>
+            </div>
+          </div>
+
+      </div>
+    </nav>
+
+    <section class="hero is-link">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Atlas Novus
+          </h1>
+          <h2 class="subtitle">
+            Kaarten van Nederland, volledig vrij te gebruiken voor niet commerciële doeleinden
+          </h2>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="maps">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-third">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Landgebruik
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <img src="img/sample.svg">
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Groot</a>
+                <a href="#" class="card-footer-item">Middel</a>
+                <a href="#" class="card-footer-item">Klein</a>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Water
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <img src="img/sample.svg">
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Groot</a>
+                <a href="#" class="card-footer-item">Middel</a>
+                <a href="#" class="card-footer-item">Klein</a>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Wegen
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <img src="img/sample.svg">
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Groot</a>
+                <a href="#" class="card-footer-item">Middel</a>
+                <a href="#" class="card-footer-item">Klein</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+            <p>
+              <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">Atlas Novus</span> van <a xmlns:cc="http://creativecommons.org/ns#" href="https://guushoekman.com" property="cc:attributionName" rel="cc:attributionURL">Guus Hoekman</a> is in licentie gegeven volgens een <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal-licentie</a>.
+            </p>
+            <p>
+              Gebaseerd op <a target="_blank" xmlns:dct="http://purl.org/dc/terms/" href="https://www.pdok.nl/nl/producten/pdok-downloads/basis-registratie-topografie/topnl/topnl-actueel" rel="dct:source">een werk</a> van <a target="_blank" href="https://www.pdok.nl">PDOK</a>.
+            </p>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+          // Add a click event on each of them
+          $navbarBurgers.forEach(function ($el) {
+            $el.addEventListener('click', function () {
+
+              // Get the target from the "data-target" attribute
+              var target = $el.dataset.target;
+              var $target = document.getElementById(target);
+
+              // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+              $el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+
+            });
+          });
+        }
+
+      });
+    </script>
+  </body>
+</html>
