@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atlas Novus | Eigen kaart maken</title>
+    <link rel="stylesheet" href="css/bulma.min.css??">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav id="navbar" class="navbar">
+      <div id="specialShadow" class="bd-special-shadow"></div>
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <img src="img/logo.svg">
+            </a>
+            <div id="navbarBurger" class="navbar-burger burger" data-target="an-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div id="an-menu" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item" href="about.html">
+                Over Atlas Novus
+              </a>
+              <a class="navbar-item is-active" href="make-your-own.html">
+                Eigen kaart maken
+              </a>
+              <a class="navbar-item" href="mailto:mail@guushoekman.com">
+                Contact
+              </a>
+            </div>
+          </div>
+
+      </div>
+    </nav>
+
+    <section class="hero is-link">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Atlas Novus
+          </h1>
+          <h2 class="subtitle">
+            Maak je eigen kaarten met open source software
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-half">
+            <h2 class="title">Data</h2>
+            <h2 class="title">QGIS</h2>
+            <pre>qgis --project topnl.qgs --snapshot output.png --width 7690 --height 3070 --extent 54980,428640,101120,447060</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-one-fifth">
+            <ul class="menu content is-small">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">Over Atlas Novus</a></li>
+              <li><a href="make-your-own.html">Eigen kaarten maken</a></li>
+              <li><a href="mailto:mail@guushoekman.com">Contact</a></li>
+            </ul>
+          </div>
+          <div class="column is-two-fifths">
+            <div class="content has-text-centered is-small">
+              <p>
+                <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">Atlas Novus</span> van <a xmlns:cc="http://creativecommons.org/ns#" href="https://guushoekman.com" property="cc:attributionName" rel="cc:attributionURL">Guus Hoekman</a> is in licentie gegeven volgens een <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal-licentie</a>.
+              </p>
+              <p>
+                Gebaseerd op <a target="_blank" xmlns:dct="http://purl.org/dc/terms/" href="https://www.pdok.nl/nl/producten/pdok-downloads/basis-registratie-topografie/topnl/topnl-actueel" rel="dct:source">een werk</a> van <a target="_blank" href="https://www.pdok.nl">PDOK</a>.
+              </p>
+              <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
