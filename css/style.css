@@ -12,6 +12,10 @@
   border-bottom: 3px solid #0a0a0a;
 }
 
+.card {
+  position: relative;
+}
+
 .card .tag {
   margin-left: 10px;
 }
@@ -25,6 +29,56 @@
   display: -ms-flexbox;
   display: flex;
   padding: 0;
+}
+
+.card-footer.sizes {
+  z-index: 100;
+  position: relative;
+  background-color: #fff;
+  transition: margin-top 0.5s;
+  border-top: none;
+}
+
+.card-footer.sizes .card-footer-item {
+  border-top: 1px solid #dbdbdb;
+}
+
+.card-footer.sizes .card-footer-item.active {
+  border-top: 1px solid #fafafa;
+  background-color: #fafafa;
+}
+
+.card-footer.download {
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  transition: margin-top 0.3s;
+  height: 49px;
+  font-size: 0.75rem;
+}
+
+.card-footer.download .card-footer-item {
+  background-color: #fafafa;
+}
+
+.card-footer.download.visible {
+  margin-top: -49px;
+}
+
+.card-footer.download .size, .card-footer.download .download {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-footer.download .width {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.card-footer.download .height {
+  margin-left: 5px;
+  margin-right: 10px;
 }
 
 .card-footer-item {
@@ -60,4 +114,9 @@
 
 .card img {
   width: 100%;
+}
+
+.column.is-centered {
+  display: flex;
+  justify-content: center;
 }
