@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+
+  <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}" />
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.image }}">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://atlasnovus.nl{{ page.url }}" />
+  <meta property="og:image" content="{{ site.image }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+
+  <link rel="canonical" href="https://atlasnovus.nl">
+
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
