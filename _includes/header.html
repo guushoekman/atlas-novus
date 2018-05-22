@@ -2,7 +2,7 @@
   <div id="specialShadow" class="bd-special-shadow"></div>
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item is-active" href="#">
+        <a class="navbar-item {% if page.name == 'index.md' %}is-active{% endif %}" href="/">
           <img src="img/logo.svg">
         </a>
         <div id="navbarBurger" class="navbar-burger burger" data-target="an-menu">
@@ -14,13 +14,13 @@
 
       <div id="an-menu" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="about.html">
+          <a class="navbar-item {% if page.name == 'about.md' %}is-active{% endif %}" href="about.html">
             Over Atlas Novus
           </a>
-          <a class="navbar-item" href="make-your-own.html">
+          <a class="navbar-item {% if page.name == 'make-your-own.md' %}is-active{% endif %}" href="make-your-own.html">
             Eigen kaart maken
           </a>
-          <a class="navbar-item" href="mailto:mail@guushoekman.com">
+          <a class="navbar-item {% if page.name == 'contact.md' %}is-active{% endif %}" href="contact.html">
             Contact
           </a>
         </div>
