@@ -1,0 +1,43 @@
+<nav id="navbar" class="navbar">
+  <div id="specialShadow" class="bd-special-shadow"></div>
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item {% if page.name == 'index.md' %}is-active{% endif %}" href="/">
+          <img src="img/logo.svg">
+        </a>
+        <div id="navbarBurger" class="navbar-burger burger" data-target="an-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="an-menu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item {% if page.name == 'about.md' %}is-active{% endif %}" href="about.html">
+            Over Atlas Novus
+          </a>
+          <a class="navbar-item {% if page.name == 'make-your-own.md' %}is-active{% endif %}" href="make-your-own.html">
+            Eigen kaart maken
+          </a>
+          <a class="navbar-item {% if page.name == 'contact.md' %}is-active{% endif %}" href="contact.html">
+            Contact
+          </a>
+        </div>
+      </div>
+
+  </div>
+</nav>
+
+<section class="hero is-link">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Atlas Novus
+      </h1>
+      <h2 class="subtitle">
+        {{ page.subtitle }}
+      </h2>
+    </div>
+  </div>
+</section>
