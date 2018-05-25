@@ -24,3 +24,8 @@ github_username: guushoekman
 # Build settings
 markdown: kramdown
 plugins:
+
+exclude: ['files']
+
+collections:
+  maps:
