@@ -17,7 +17,7 @@ subtitle: Vernoemd naar de gelijknamige atlas van Willem Blaeu, uitgegeven in 16
         <h2>Deze Atlas Novus</h2>
         <p>Hoewel dit qua omvang noch vereist talent te vergelijken is met de originele <i>Atlas Novus</i> leek het me toch een passende naam. Ter bewondering voor het werk van Willem Blaeu, maar vooral omdat dit gaat om een nieuwe vorm van cartografie.</p>
 
-        <p>De kaarten op deze site zijn gemaakt met <a target="_blank" href="https://www.pdok.nl/nl/producten/pdok-downloads/basisregistratie-topografie/topnl/topnl-actueel/top100nl">TOP100NL data</a> van <a target="_blank" href="https://pdok.nl/">PDOK</a>, Publieke Dienstverlening Op de Kaart.</p>
+        <p>De kaarten op deze site zijn gemaakt met <a target="_blank" href="https://www.pdok.nl/nl/producten/pdok-downloads/basisregistratie-topografie/topnl/topnl-actueel/top100nl">TOP100NL data</a> van <a target="_blank" href="https://pdok.nl/">PDOK</a>, Publieke Dienstverlening Op de Kaart. Zonder hun open data had ik deze kaarten niet kunnen maken; ik stel hun werk zeer op prijs.</p>
 
         <p>Atlas Novus is gemaakt door <a target="_blank" href="https://guushoekman.com">Guus Hoekman</a>.</p>
       </div>
