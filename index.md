@@ -7,17 +7,22 @@ subtitle: "Kaarten van Nederland, volledig vrij te gebruiken"
     <div class="columns is-multiline">
       {% for map in site.maps %}
       <div class="column is-half-tablet is-one-third-desktop">
-        <div class="card">
+        <div class="card map">
           <header class="card-header">
             <p class="card-header-title">
-              {{ map.title }} <span class="tag is-light">1:{{ map.scale }}</span>
+              {{ map.title }} <span class="tag is-light">{{ map.pdok }}</span>
             </p>
           </header>
           <div class="card-content">
             <div class="content">
-              <img src="img/{{ map.name }}-thumb.png">
+              <img src="img/{{ map.name }}-thumb.png" original="img/{{ map.name }}-thumb.png" alternative="img/{{ map.name }}-alt.png">
             </div>
           </div>
+          <footer class="card-footer warning">
+              <div class="card-footer-item">
+                <span>Waarschuwing: grote afbeeldingen kunnen je computer laten vastlopen</span>
+              </div>
+            </footer>
           <footer class="card-footer download">
             <div href="#" class="card-footer-item">
               <span class="size"></span>
@@ -30,7 +35,7 @@ subtitle: "Kaarten van Nederland, volledig vrij te gebruiken"
           </footer>
           <footer class="card-footer sizes">
             {% for size in map.sizes %}
-            <a href="#" size="{{ size.size }} MB" width="{{ size.width }}" height="{{ size.height }}" url="{{ size.url }}" class="card-footer-item">{{ size.title }}</a>
+            <a href="#" size="{{ size.size }} MB" width="{{ size.width }}" height="{{ size.height }}" url="{{ size.url }}" class="card-footer-item {% if size.size > 40 %}warning{% endif %}">{{ size.title }}</a>
             {% endfor %}
           </footer>
         </div>

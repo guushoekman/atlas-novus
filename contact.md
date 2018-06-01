@@ -14,7 +14,7 @@ subtitle: Neem contact op
       </div>
       <div class="column is-half">
         <h2 class="title">Een kaart gebruiken / aanpassen</h2>
-        <p>Je hoeft me niet te vragen of je content van Atlas Novus mag gebruiken. Wel stel ik het zeer op prijs </p>
+        <p>Je hoeft me niet te vragen of je content van Atlas Novus mag gebruiken. Wel stel ik het zeer op prijs als je <a href="mailto:mail@guushoekman.com">me mailt</a> als je content van me gebruikt of aanpast.</p>
         <p>De kaarten op Atlas Novus hebben een <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.nl">Creative Commons BY-SA 4.0</a> licentie. Dat betekent dat je <b>vrij bent om deze kaarten te delen en te bewerken voor alle doeleinden</b>, inclusief commerciële doeleinden. Wel zijn er <b>een aantal voorwaarden</b>:</p>
         <ul>
           <li><b>Naamsvermelding</b> — je dient mij, Guus Hoekman, te vermelden, een link naar de licentie te plaatsen en aan te geven of het werk veranderd is.</li>
