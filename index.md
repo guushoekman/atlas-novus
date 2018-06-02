@@ -15,7 +15,7 @@ subtitle: "Kaarten van Nederland, volledig vrij te gebruiken"
           </header>
           <div class="card-content">
             <div class="content">
-              <img src="img/{{ map.name }}-thumb.png" original="img/{{ map.name }}-thumb.png" alternative="img/{{ map.name }}-alt.png">
+              <img src="img/{{ map.name }}-thumb.png" original="img/{{ map.name }}-thumb.png" alternative="img/{{ map.name }}-alt.png" alt="{{ map.title }}">
             </div>
           </div>
           <footer class="card-footer warning">
@@ -30,7 +30,7 @@ subtitle: "Kaarten van Nederland, volledig vrij te gebruiken"
               <span class="width"></span>
               ×
               <span class="height"></span>
-              <a href="" target="_blank" download class="download button is-small is-link">Download</a>
+              <a map="{{ map.title }}" size="" href="" target="_blank" class="download button is-small is-link">Download</a>
             </div>
           </footer>
           <footer class="card-footer sizes">
