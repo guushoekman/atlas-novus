@@ -16,7 +16,8 @@ $(".card-footer.sizes .card-footer-item").click(function(e) {
 })
 
 $(".download.button").click(function() {
-  console.log(map + size);
+  var map = $(this).attr("map");
+  var size = $(this).attr("size");
   gtag('event', 'download', {
     'event_category': map,
     'event_label': size,
@@ -31,9 +32,8 @@ $(".maps .card.map .card-content img").click(function() {
   if ($(this).hasClass("alternative")) {
     $(this).attr("src", original)
   } else {
-    gtag('event', 'click', {
-      'event_category': 'Zoom in',
-      'event_label': title,
+    gtag('event', 'zoom in', {
+      'event_category': title,
     });
     $(this).attr("src", alternative)
   };
