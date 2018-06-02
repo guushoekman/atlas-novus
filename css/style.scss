@@ -93,6 +93,17 @@
   }
 }
 
+.make-your-own {
+  img {
+    max-width: 100%;
+  }
+  blockquote {
+    code {
+      padding: 0;
+    }
+  }
+}
+
 .footer {
   padding: 3rem 1.5rem;
 }
