@@ -10,7 +10,7 @@ subtitle: "Kaarten van Nederland, volledig vrij te gebruiken"
         <div class="card map">
           <header class="card-header">
             <p class="card-header-title">
-              {{ map.title }} <span class="tag is-light">{{ map.pdok }}</span>
+              {{ map.title }}
             </p>
           </header>
           <div class="card-content">
