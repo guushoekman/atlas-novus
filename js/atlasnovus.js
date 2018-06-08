@@ -8,11 +8,6 @@ $(".card-footer.sizes .card-footer-item").click(function(e) {
   $(this).parent().prev().children().children(".height").text($(this).attr("height"));
   $(this).parent().prev().children().children("a").attr("size", ($(this).text()));
   $(this).parent().prev().children().children("a").attr("href", ($(this).attr("url")));
-  if ( $(this).hasClass("warning") ) {
-    $(this).parent().prev().prev(".card-footer.warning").addClass("visible");
-  } else {
-    $(this).parent().prev().prev(".card-footer.warning").removeClass("visible");
-  }
 })
 
 $(".download.button").click(function() {
